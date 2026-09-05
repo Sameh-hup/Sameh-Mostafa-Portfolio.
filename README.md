@@ -67,3 +67,26 @@ I am an **Information Technology student** at Zagazig University and a **C# / .N
 ├── js/               # Core scripts
 ├── index.html        # Main HTML file
 └── README.md         # Project documentation
+```
+## How to Run Locally
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Sameh-hup/Sameh-Mostafa-Portfolio..git](https://github.com/Sameh-hup/Sameh-Mostafa-Portfolio..git)
+Navigate into the directory:
+
+Bash
+cd Sameh-Mostafa-Portfolio.
+Open index.html:
+Double-click index.html or run it using Live Server in VS Code.
+
+
+## Contact & Connect
+
+- 💼 **LinkedIn:** [Sameh Mostafa](https://www.linkedin.com/in/sameh-mostafa-95a06730b)
+- 🐙 **GitHub:** [@Sameh-hup](https://github.com/Sameh-hup)
+- 🌐 **Portfolio:** [sameh-hup.github.io/Sameh-Mostafa-Portfolio.](https://sameh-hup.github.io/Sameh-Mostafa-Portfolio./)
+- 📍 **Location:** Sharqia / Cairo, Egypt
+
+---
+*Created with passion & clean code by **Sameh Mostafa** © 2026*
