@@ -542,6 +542,12 @@ body.dark-mode .theme-toggle-btn .icon-moon {
   display: flex;
   justify-content: center;
 }
+.profile-image {
+  content: url("../assets/images/portfolio-photo.png");
+}
+body.dark-mode .profile-image {
+  content: url("../assets/images/1788560740489-2.png");
+}
 
 .profile-card {
   background-color: var(--bg-card);
