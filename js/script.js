@@ -618,10 +618,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const revealObserver = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          // لما توصل للعنصر وأنت نازل بيظهر
           entry.target.classList.add('active');
         } else {
-          // لو العنصر خرج فوق نطاق الرؤية (يعني اتقلب فوق) بيرجع يتحضر للأنميشن اللي بعده
+         
           if (entry.boundingClientRect.top > 0) {
             entry.target.classList.remove('active');
           }
@@ -641,7 +640,7 @@ document.addEventListener('DOMContentLoaded', () => {
   /* ==========================================================================
      12. DYNAMIC FLOATING CODE PARTICLES
      ========================================================================== */
-  const heroSection = document.querySelector('.hero-section');
+ /* const heroSection = document.querySelector('.hero-section');
   if (heroSection) {
     const particlesContainer = document.createElement('div');
     particlesContainer.className = 'code-particles-container';
@@ -663,6 +662,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
       particlesContainer.appendChild(particle);
     }
-  }
+  }*/
 
 });
